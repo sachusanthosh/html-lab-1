@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LAB-1</title>
+</head>
+<body>
+
+	<div>
+		<form>
+			<!-- name and email of user -->
+
+			<input type="text" name="name" placeholder="enter your name" max="3" min="25" required>
+			<label for="name">Enter your name</label><br><br>
+
+			<input type="email" name="email" placeholder="enter your email" autofocus="autofocus" value="test@example.com" required>
+			<label for="email">Enter your email</label><br><br>
+
+			<!-- password and confirming password -->
+
+			<input type="password" name="pass" placeholder="enter password" min="6" max="20" required>
+			<label for="pass">password</label><br><br>
+
+			<input type="password" name="pass_confirm" placeholder="confirm password" min="6" max="20" required>
+			<label for="pass_confirm">Confirm password</label><br><br>
+
+			<!-- Dropdown list for selecting catogary -->
+
+			<select name="catogary" required>
+				<option>Student</option>
+				<option>Employee</option>
+				<option selected>Freelancer</option>
+			</select>
+			<label for="catogary">Catogary</label><br><br>
+
+			<!-- date -->
+
+			<input type="date" name="date" id="date" required>
+			<label for="date">Event date</label><br><br>
+
+			<!-- radio button for selecting no:of tickets -->
+
+			<input type="radio" name="ticket" id="ticket1">
+			<label for="ticket1">1 ticket</label><br>
+			<input type="radio" name="ticket" id="ticket2" checked="checked">
+			<label for="ticket2">2 ticket</label><br>
+			<input type="radio" name="ticket" id="ticket3">
+			<label for="ticket3">3 ticket</label><br><br>
+
+			<!-- Checkbox for choosing online-payment -->
+
+			<input type="checkbox" name="payment" id="payment" required>
+			<label for="payment">Online payment</label><br><br>
+
+			<!-- Textarea for Notes -->
+
+			<textarea placeholder="enter your notes here" name="notes"></textarea>
+			<label for="notes">Notes</label><br><br>
+
+			<!-- Submit button -->
+
+			<input type="Submit" name="Submit" id="Submit" value="Submit"><br>
+
+			
+		</form>
+	</div>
+
+</body>
+</html>
